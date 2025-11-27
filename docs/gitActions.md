@@ -1,2 +1,0 @@
-# GitActions
-## (Workflow & MkDocs)
