@@ -11,7 +11,7 @@ Estando dentro de la máquina kali, comenzaremos la actividad creando una nueva 
 
 Dentro de esta carpeta organizaremos nuestros archivos y alojaremos el repositorio de GIT local de este proyecto.
 
-
+---
 
 ## Paso 1: Reutilización de material.
 
@@ -28,6 +28,8 @@ PPS-Unidad0-TareaRA5-Unai-Merino-Barañano
 │   └── gui.py  
 └──  docs/  
 ```
+
+---
 
 ## Paso 2: Inicialización de repositorio local.
 
@@ -54,6 +56,8 @@ PPS-Unidad0-TareaRA5-Unai-Merino-Barañano
 └── .git
 ```
 
+---
+
 ## Paso 3: Creación y vinculación con Repositorio Remoto.
 
 Como hemos empezado nuestro proyecto en un repositorio local, no disponemos de repositorio remoto, por lo que en este apartado lo crearemos en github para posteriormente vincularlo a nuestro repositorio local.
@@ -73,6 +77,8 @@ Vinculamos los repositorios remoto y local mediante una ***KEY SSH**, para ello 
 
 ![Img7](Capturas/git-caps/cap7.png)
 
+---
+
 ## Paso 4: Primer Commit & Push al Repositorio Remoto.
 
 Crearemos un primer commit agregando a nuestro directorio una primera versión de la carpeta docs imcompleta pero que irá completandose a medida de que se vaya construyendo cada apartado restante de esta actividad.
@@ -83,6 +89,8 @@ Crearemos un primer commit agregando a nuestro directorio una primera versión d
 
 
 ![Img8](Capturas/git-caps/cap8.png)
+
+---
 
 ## RESULTADO FINAL:
 

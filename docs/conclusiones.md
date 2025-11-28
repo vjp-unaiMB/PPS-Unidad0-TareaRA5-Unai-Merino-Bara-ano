@@ -8,8 +8,10 @@
 
 * La aplicación de páginas interactivas de GitHub es una modalidad muy interesante para emular nuestro trabajo producido, y que en mi caso como ex alumno de DAW nunca habíamos empleado.
 
+---
+
 ## Método a seguir respecto a la documentación.
 
-En mi caso para documentar he empleado Visual-Studio junto a la opción de emular el acabado final de los documentos para garantizar que no ocurran errores, así mismo estos documentos los he creado junto a la carpeta imágenes dentro de la carpeta DOCS, que luego importaré dentro de la carpeta del proyecto a desplegar, haciendo todo el proceso de documentación mucho más sencillo pudiendo integrarlo solo con mover una carpeta al repositorio local de esta actividad en KALI.
+En mi caso para documentar he empleado Visual-Studio junto a la opción de emular el acabado final de los documentos para garantizar que no ocurran errores, así mismo estos documentos los he creado junto a la carpeta imágenes dentro de la carpeta DOCS, que luego importaré dentro de la carpeta del proyecto a desplegar, haciendo todo el proceso de documentación mucho más sencillo y pudiendo integrarlo solo con mover una carpeta al repositorio local de esta actividad en KALI.
 
-![Captura0](/Capturas/cap1.png)
+![img1](/Capturas/conclusiones/cap1.png)

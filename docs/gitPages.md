@@ -5,6 +5,8 @@ En este apartado explicaremos los pasos a seguir en nuestro Repositorio Remoto p
 
 Hay que recordar que hemos configurado neustros archivos para que se despliegue nada más hacer un push por lo que comprobaremos también si se ha llevado a cabo.
 
+---
+
 ## Paso 1: Estado del espliegue
 
 Partimos desde la vista general de neustro repositorio en GitHub y nos dirigiremos a la pesatalla acciones del índice superior.
@@ -19,6 +21,7 @@ Al clickar en el segundo commit podemos ver una lista de logs organizada en secc
 
 ![img2](Capturas/gitPages/cap2.png)
 
+---
 
 ## Paso 2: Configuración de Páginas.
 
@@ -30,10 +33,11 @@ Una vez en el sitio sostituiremos 2 valores en la subcategoría ***Branch***.
 
 * ***Primer cuadro*** -> cambiamos de `main` a `gh-pages` porque así se lo hemos indicado en el contenido del Workflow.
 
-* ***Segundo cuadro*** -> cambiamos el directorio de padre de la documentaión `/(root)` .
+* ***Segundo cuadro*** -> cambiamos el directorio de padre de la documentaión `/(root)` a `/docs` porque es desde `/docs` donde tomará los archivos de documentación.
 
 ![img3](Capturas/gitPages/cap3.png)
 
+---
 
 ## Paso 3: Ver Resultado
 
@@ -44,3 +48,11 @@ Volvemos a nuestra vista general del repositiorio `Code` y observamos que abajo 
 Nos aparecerá un recuadro con los últimos despliegues. Si pulsamos en el enlace nos enviará a nuestra página desplegada del proyecto.
 
 ![img5](Capturas/gitPages/cap5.png)
+
+---
+
+RESULTADO FINAL:
+
+Como se peude observar, la página se muestra correctamente.
+
+![img6](Capturas/gitPages/cap6.png)

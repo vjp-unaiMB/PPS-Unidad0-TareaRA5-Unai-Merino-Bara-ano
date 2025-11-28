@@ -1,4 +1,6 @@
-# Actividad obligatoria Unidad 0 -DevSecOps Básico y automatización de Documentación.
+# Actividad Obligatoria 
+
+## Unidad 0 -DevSecOps Básico y automatización de Documentación.
 
 ### Autor:  `Unai Merino Barañano`
 
@@ -12,20 +14,25 @@
 
 [Entrega](#entrega)
 
+---
 
 ## Objetivos
 
 Esta actividad tiene como objetivo poner en práctica los contenidos tratados en esta unidad:
 
-* Lenguaje de marcas MarkDown.
-* Sistemas de control de versiones: Git.
-* Creación y administración de contenedores: Docker.
-* Ciclos de desarrollo software seguros: * * SecDevOps.
+* Lenguaje de marcas `MarkDown`.
+* Sistemas de control de versiones: `Git`.
+* Creación y administración de contenedores: `Docker`.
+* Ciclos de desarrollo software seguros: `DevSecOps`.
 * Documentación.
+
+---
 
 ## Resultados de aprendizaje y Criterios de Evaluación
 
 Esta actividad se relaciona con el resultado de aprendizaje y criterios de evaluación RA 5 a, b, c y g.
+
+---
 
 ## Desarrollo
 * **Nota importante**
@@ -35,8 +42,10 @@ Documenta explicando claramente los procesos realizados, incluyendo fragmentos d
 
 * Deberás de añadir como colaborador en tu repositorio de GitHub al profesor: PPSvjp Settings > Collaborators.
 
+---
+
 ## Entrega
-### Indicaciones de entrega
+
 Una vez realizada la tarea, el envío se realizará a través de la plataforma. Deberás de entregar al menos:
 
 * El repositorio que has creado, comprimido en un archivo.

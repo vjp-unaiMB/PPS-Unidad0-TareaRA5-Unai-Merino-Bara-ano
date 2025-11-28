@@ -3,6 +3,8 @@
 
 En este apartado añadiremos funcionalidad a nuestro proyecto mediante la configuración de MkDocs y Workflow.
 
+---
+
 ## Paso 1: MkDocs
 
 En este paso agregaremos a nuestro proyecto el fichero `mkdocs.yml` y lo configuraremos para que sirva nuestra documentación.
@@ -10,7 +12,11 @@ En este paso agregaremos a nuestro proyecto el fichero `mkdocs.yml` y lo configu
 * Creamos el fichero ***hijo directo del directorio principal*** `nano mkdocs.yml`
 * Rellenamos el fichero:
 
+En este caso debemos de modificar la variable `site_name` y el listado de secciones `nav`, añadiendo un apartado por documento creado en ***/docs***.
+
 ![img1](Capturas/gitActions-caps/cap1.png)
+
+---
 
 ## Paso 2: Workflow
 
@@ -20,8 +26,13 @@ Nuestro archivo workflow nos permitirá ejecutar una serie de instrucciones al p
 
 * Dentro de la carpeta workflows creamos guardamos el siguiente archivo de configuración para pipeline: `nano /.github/workflows/CreacionDocumentacion.yml`
 
+Este archivo se encargará de construir y ejecutar una serie de instrucciones por cada push creado en la rama gh-pages haciendo así que el proyecto de despliegue. 
+
+> Usaremos el del ejercicio anterior.
+
 ![img2](Capturas/gitActions-caps/cap2.png)
 
+---
 
 ## Paso 3: Confirmar, commitear y hacer push
 
@@ -36,13 +47,15 @@ Una vez aplicados los cambios subimos el contenido al Repositorio Remoto con la 
 
 Se debería de ver el workflow ejecutándose en el último push.
 
+---
+
 ## RESULTADO FINAL:
 
 ***Repositorio Remoto:***
 
 ![img4](Capturas/gitActions-caps/cap4.png)
 
-***Estructura provisional:***
+***Estructura final:***
 
 ```
 PPS-Unidad0-TareaRA5-Unai-Merino-Barañano/
