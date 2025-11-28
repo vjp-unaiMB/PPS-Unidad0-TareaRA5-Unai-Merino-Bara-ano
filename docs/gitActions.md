@@ -14,7 +14,7 @@ En este paso agregaremos a nuestro proyecto el fichero `mkdocs.yml` y lo configu
 
 ## Paso 2: Workflow
 
-Nuestro archivo workflow nos permitirá ejecutar una serie de instrucciones al poner en servicio nuestro proyecto, para configurarlo seguiremos los siguientes pasos:
+Nuestro archivo workflow nos permitirá ejecutar una serie de instrucciones al poner en servicio nuestro proyecto, en este caso cada vez que hacemos push, para configurarlo seguiremos los siguientes pasos:
 
 * Creamos la raíz de directorios necesarios  `mkdir -p .github/workflows`
 
@@ -23,20 +23,26 @@ Nuestro archivo workflow nos permitirá ejecutar una serie de instrucciones al p
 ![img2](Capturas/gitActions-caps/cap2.png)
 
 
-3. Confirmar, commitear y hacer push
-bash
-git add .github/workflows/ci.yml
-git commit -m "Añadir workflow básico de GitHub Actions"
-git push origin main
-4. Verificar en GitHub
-Entra al repo en GitHub → pestaña Actions.
+## Paso 3: Confirmar, commitear y hacer push
 
-Deberías ver el workflow “CI” ejecutándose en el último push; si algo falla, copia el log del job y lo revisamos.
+Una vez aplicados los cambios subimos el contenido al Repositorio Remoto con la secuencia que acostumbramos a hacer.
 
-Si tu actividad pide pasos específicos (tests, build de Docker, etc.), dime qué exige el enunciado de gitActions.md y se adapta el ci.yml a lo que te están pidiendo exactamente.
+* Aplicamos los cambios `git add .`
+* Creamos el Commit `git commit -m "Subida de workflow básico y MkDocs"`
 
+* Hacemos push `git push origin main`
+
+![img3](Capturas/gitActions-caps/cap3.png)
+
+Se debería de ver el workflow ejecutándose en el último push.
 
 ## RESULTADO FINAL:
+
+***Repositorio Remoto:***
+
+![img4](Capturas/gitActions-caps/cap4.png)
+
+***Estructura provisional:***
 
 ```
 PPS-Unidad0-TareaRA5-Unai-Merino-Barañano/
