@@ -30,7 +30,7 @@ Una vez en el sitio sostituiremos 2 valores en la subcategoría ***Branch***.
 
 * ***Primer cuadro*** -> cambiamos de `main` a `gh-pages` porque así se lo hemos indicado en el contenido del Workflow.
 
-* ***Segundo cuadro*** -> cambiamos el directorio de padre de la documentaión `/(root)` a `/docs` porque es desde `/docs` donde tomará los archivos de documentación.
+* ***Segundo cuadro*** -> cambiamos el directorio de padre de la documentaión `/(root)` .
 
 ![img3](Capturas/gitPages/cap3.png)
 
